@@ -46,7 +46,7 @@ public class Application implements CommandLineRunner {
     void sendEmail() {
 
         SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setTo("1@gmail.com", "2@yahoo.com");
+        msg.setTo("1@gmail.com", "2@hotmail.com");
 
         msg.setSubject("Testing from Spring Boot");
         msg.setText("Hello World \n Spring Boot Email");
